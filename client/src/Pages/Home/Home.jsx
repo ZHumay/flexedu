@@ -133,6 +133,7 @@ function Home() {
                   {row.status === 'Accepted' && (
                     <>
                      <p>{date}</p>
+                    <Button onClick={() => handleAccepted(row.id)}>Edit</Button>
                     </>
                   )}
                 </TableCell>

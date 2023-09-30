@@ -154,10 +154,10 @@ const post_login = async (req, res) => {
           res.json({ msg: "token, not generated, please login first !!" });
         }
       } else {
-        res.json({ msg: "Password does not matched" });
+        res.json({ msg: "Email or password is wrong !!" });
       }
     } else {
-      res.json({ msg: "Email not found !!" });
+      res.json({ msg: "Email or password is wrong !!" });
     }
   } catch (error) {
     res.json({ msg: error.message });
