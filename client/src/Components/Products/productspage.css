@@ -1,0 +1,9 @@
+.custom-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(230, 130, 24);
+  }
+.custom-data-cell{
+    font-size: 13px;
+    font-weight: bold;
+}

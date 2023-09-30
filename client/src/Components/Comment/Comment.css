@@ -1,0 +1,326 @@
+.comment{
+    margin: 15px 0;
+    padding: 10px;
+    padding-right: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.16);
+    overflow: hidden;
+    max-height: 200px; /* Set the maximum height you want for the comment div */
+    background-color: white;
+
+}
+
+.comment .left{
+    margin-right: 10px;
+}
+.left{
+    transform: translate(1px,10px);
+}
+.comment img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    /* border : 1px solid rgb(134, 90, 13); */
+    padding : 2px;
+}
+.comment .right .header_name{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+.header_name p{
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.comment_txt_wrapper{
+    padding-left:0px;
+    font-weight: 600;
+    transform: translateY(-10px);
+    word-wrap: break-word; /* Wrap long words */
+    overflow-wrap: break-word;
+    max-width: 500px;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.comment_txt_wrapperr{
+    padding-left:0px;
+    font-weight: 400;
+    transform: translateY(-25px);
+    word-wrap: break-word; /* Wrap long words */
+    overflow-wrap: break-word;
+    max-width: 500px;
+}
+
+.comment_txt_wrapper p{
+    padding-right: 20px !important;
+    white-space: pre-wrap;
+}
+
+.comment_del{
+    color: lightcoral;
+    cursor: pointer;
+transform: translateY(-9px);
+}
+
+.header_name_comment{
+    width: 785px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.h1_cl{
+    font-weight: 500;
+}
+
+.h1_cr{
+    margin-left: auto;
+    margin-top: 33px;
+}
+
+.author_txt_txt{
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.237);
+    background-color: rgba(0, 154, 157, 0.748);
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.right{
+    margin-top: -2px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+
+    .header_name_comment {
+        width: 212px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .comment img {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        border: 1px solid rgb(32, 151, 255);
+        padding: 2px;
+    }
+
+    .comment .left {
+        margin-right: 15px;
+    }
+    .left {
+        transform: translate(1px,11px);
+    }
+    .comment_txt_wrapper {
+        padding-left: 0px;
+        font-weight: 400;
+        transform: translateY(-28px);
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-width: 188px;
+    }
+  
+}
+
+@media screen and (min-width: 407px) and (max-width: 708px){
+
+    .header_name_comment {
+        width: 240px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (min-width: 497px) and (max-width: 708px){
+
+    .header_name_comment {
+        width: 319px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (min-width: 542px) and (max-width: 708px){
+
+    .header_name_comment {
+        width: 370px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and (min-width: 561px) and (max-width: 708px){
+
+    .header_name_comment {
+        width: 370px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and (min-width: 625px) and (max-width: 708px){
+
+    .header_name_comment {
+        width: 433px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (min-width: 664px) and (max-width: 708px){
+
+    .header_name_comment {
+        width: 460px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and (min-width: 705px) and (max-width: 768px){
+
+    .header_name_comment {
+        width: 490px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (min-width: 715px) and (max-width: 768px){
+
+    .header_name_comment {
+        width: 520px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+
+    .header_name_comment {
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (min-width: 788px) and (max-width: 1278px){
+
+    .header_name_comment {
+        width: 578px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (min-width: 846px) and (max-width: 1279px){
+
+    .header_name_comment {
+        width: 620px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and (min-width: 888px) and (max-width: 1279px){
+
+    .header_name_comment {
+        width: 660px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (min-width: 954px) and (max-width: 1278px){
+
+    .header_name_comment {
+        width: 720px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and (min-width: 981px) and (max-width: 1279px){
+
+    .header_name_comment {
+        width: 765px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (min-width: 1042px) and (max-width: 1279px){
+
+    .header_name_comment {
+        width: 795px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (min-width: 1183px) and (max-width: 1279px){
+
+    .header_name_comment {
+        width: 935px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and (min-width: 1245px) and (max-width: 1325px){
+
+    .header_name_comment {
+        width: 997px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and (min-width: 1285px) and (max-width: 1325px){
+
+    .header_name_comment {
+        width: 635px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+}
+
+

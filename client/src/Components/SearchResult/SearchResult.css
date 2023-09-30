@@ -1,0 +1,36 @@
+.search-result{
+    width: 450px;
+    height: 600px;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 5;
+    top: 80px;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+ 
+    .search-result{
+        width: 250px;
+        height: 600px;
+        overflow-y: scroll;
+        position: absolute;
+        z-index: 5;
+        top: 90px;
+        padding: 20px 40px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;
+    }
+    
+    .search-result .post_home_title p {
+        font-weight: 600;
+        font-size: 11px;
+        margin: 18px 8px;
+    }
+
+
+}

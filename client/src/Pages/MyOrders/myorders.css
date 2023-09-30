@@ -1,0 +1,134 @@
+.blog_profile_postt {
+   width: 215px;
+   height: 220px;
+   box-shadow: 1px 1px 13px rgb(228, 186, 157);
+   margin: 0px 10px;
+   margin-bottom: 20px;
+   position: relative;
+   overflow: hidden;
+}
+
+.blog_profile_postt .bottom{
+   position: absolute;
+   bottom:0;
+   width: 100%;
+   height: 45px;
+   background-color: rgba(0, 0, 0, 0.307);
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+
+}
+
+
+.bottomm {
+   /* display: flex;
+   flex-direction: row;  */
+   align-items: center;
+ }
+ 
+ .orders{
+  display: flex;
+  flex-direction: row;
+ }
+ .blog_postt_profile_wrapper{
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding-top: 0;
+   margin-top: 20px !important;
+   margin-left: 59px;
+}
+
+.blog_profile_postt .bottom span{
+   cursor: pointer;
+   height: 100%;
+   flex:1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-right: 1px solid gray;
+
+}
+
+.blog_profile_postt .bottom span:hover{
+   background-color: rgba(0, 0, 0, 0.863);
+}
+
+.mid__title{
+   width: 100%;
+   height: 67px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: absolute;
+   padding-top: 1px;
+   top: 153px;
+   padding-left: 6px;
+   background-color: rgba(64, 64, 64, 0.619);
+   overflow: hidden;
+}
+
+.mid__title h4{
+   font-weight: bold;
+   color: rgb(230, 230, 230);
+}
+
+.mid__title p{
+   color: rgb(255, 255, 255);
+   font-size: 12px;
+}
+
+.blog_profile_postt img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+   .orders{
+      display: flex;
+      flex-direction: column;
+     }
+
+     .blog_profile_postt {
+      width: 195px;
+      height: 200px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.544);
+      margin: 0px 10px;
+      margin-bottom: 20px;
+      margin-left: 30px;
+      position: relative;
+      overflow: hidden;
+   }
+
+   .blog_postt_profile_wrapper{
+      display: flex;
+      /* justify-content: center; */
+      flex-direction: column;
+      /* flex-wrap: wrap; */
+      padding-top: 0;
+      margin-top: 20px !important;
+      margin-left: 59px;
+   }
+   .mid__title {
+      width: 100%;
+      height: 67px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      padding-top: 4px;
+      top: 134px;
+      padding-left: 6px;
+      background-color: rgba(64, 64, 64, 0.619);
+      overflow: hidden;
+  }
+   .mid__title p{
+      color: white;
+      font-size: 11px;
+   }
+   
+}

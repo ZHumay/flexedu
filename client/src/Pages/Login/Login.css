@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+.login{
+    width: 392px;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    margin-top: 145px;
+    margin-bottom: 145px;
+    margin-left: 24px;
+
+}
+.loginimg{
+    width: 808px;
+    height: 747px;
+
+    }
+
+.login form{
+    width: 400px;
+    height: 440px;
+    background-color: #F7F6FF ;
+    padding: 12px 25px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+
+}
+.loginPage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 747px;
+    background-color: #F7F6FF;
+}
+.image{
+    margin-left: 108px;
+}
+.image-container {
+    position: relative;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Yazı boyutunu istediğiniz gibi ayarlayabilirsiniz */
+    color:  #F7F6FF; /* Yazı rengini istediğiniz gibi ayarlayabilirsiniz */
+
+  }
+.forgot{
+background-color: rgb(109, 157, 233);
+color: white;
+border-radius: 5px;
+width: 140px;
+height: 32px;
+transform: translate(105px,10px);
+cursor: pointer;
+padding: 4.3px;
+
+}
+
+.login_heading_wrapper{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    font-family: 'Space Grotesk', sans-serif;
+}
+.icons{
+    transform: translateY(2px);
+    color: rgb(81, 79, 79);
+  }
+
+.login_heading{
+    text-align: center;
+    padding: 5px 0;
+    display: inline-block;
+    color:   #525666;
+    font-size: 30px; 
+    margin-top: 20px;
+    font-weight: bold;
+   }
+
+.login .input_filed{
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    color:   #525666;
+    width: 327px;
+    height: 46px;
+    font-weight: 500;
+
+
+}
+
+.login .input_filed label{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Space Grotesk', sans-serif;
+    /* display: inline-block; */
+    margin-top: 16px;
+    font-weight: 500;
+
+  
+
+
+}
+.signupP{
+    margin-top: 25px;
+}
+.login .input_filed input{
+    padding: 14px 20px 14px 20px;
+    border-radius: 12px;
+    width: 287px;
+    border:1px solid #DBDDE7;
+    outline: none;
+ 
+    transition: .2s ease;
+    background-color: #F8F8F8;
+}
+
+.login .input_filed input:focus{
+    color: rgb(24, 24, 23);}
+
+.login_button_container{
+    /* margin: 10px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 327px;
+    height: 46px;
+    margin-top: 40px;
+}
+
+.login_button_container button{
+    /* padding: 7px 30px; */
+    font-size: 14px;
+    background-color: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #F8F8F8;
+    border: none;
+    background-color: #282B38;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 18px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.429);
+    width: 327px;
+    height: 46px;
+    font-family: 'Space Grotesk', sans-serif;
+  
+}
+/* .login_button_container button:hover{
+    color: rgb(255,64,89);  } */
+
+.bottom_form{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  
+}
+.bottom-signup {
+    font-size: 14px;
+}
+
+/* 
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+     .loginimg{
+        display: none;
+     }
+    .login form{
+        width: 300px;
+        height: 400px;
+        background: linear-gradient(90deg, rgb(250, 110, 129) 0%, rgba(255,185,95) 100%); 
+        padding: 12px 25px;
+        padding-bottom: 10px;
+        border-radius: 15px;
+        border: 0.5px solid rgb(239, 238, 238);
+
+    }
+    .login{
+        background-color:white
+
+    }
+    .signupP {
+        margin-top: 16px;
+    }
+    .forgot {
+        background-color: rgb(109, 157, 233);
+        color: white;
+        border-radius: 5px;
+        width: 140px;
+        height: 32px;
+        transform: translate(55px,10px);
+        cursor: pointer;
+        padding: 4.3px;
+    }
+}
+@media screen and (min-width: 516px) and (max-width: 768px){
+
+    .forgot {
+        background-color: rgb(109, 157, 233);
+        color: white;
+        border-radius: 5px;
+        width: 140px;
+        height: 32px;
+        transform: translate(55px,6px);
+        cursor: pointer;
+        padding: 4.3px;
+    }
+    .righttt {
+        display: flex;
+        flex-direction: row;
+        margin-left: -150px;
+        margin-top: 63px;
+    }
+}
+
+@media screen and (min-width: 618px) and (max-width: 768px){
+
+    .forgot {
+        background-color: rgb(109, 157, 233);
+        color: white;
+        border-radius: 5px;
+        width: 140px;
+        height: 32px;
+        transform: translate(55px,6px);
+        cursor: pointer;
+        padding: 4.3px;
+    }
+    .righttt {
+        display: flex;
+        flex-direction: row;
+        margin-left: -150px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 778px) and (max-width: 1278px){
+    .loginPage {
+        display: flex;
+        flex-direction: row;
+        margin-top: -3px;
+    }
+    .signupP {
+        margin-top: 12px;
+      }
+      .forgot {
+        background-color: rgb(109, 157, 233);
+        color: white;
+        border-radius: 5px;
+        width: 140px;
+        height: 32px;
+        transform: translate(105px,4px);
+        cursor: pointer;
+        padding: 4.3px;
+      }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+
+    .login form{
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(90deg, rgb(250, 110, 129) 0%, rgba(255,185,95) 100%); 
+        padding: 12px 25px;
+        padding-bottom: 10px;
+        border-radius: 15px;
+        border: 0.5px solid rgb(239, 238, 238);
+        
+
+    }
+
+} */

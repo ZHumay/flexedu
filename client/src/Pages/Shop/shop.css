@@ -1,0 +1,141 @@
+.shop  .home_wrapper .leftHome{
+  display: flex;
+  flex-wrap: wrap;
+    flex: 7;
+    height: 90vh;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    transform: translateX(-187px);
+}
+.popular-products{
+font-size: 26px;
+transform: translate(50px,90px);
+margin-top: 90px;
+width: 350px;
+color: #e08e53;
+letter-spacing: 0.1rem;
+}
+.overview-shop{
+  transform: translateX(40px);
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+font-size: 20px;
+width: 778px;
+}
+
+.select {
+  font-weight: bold;
+}
+
+.select select {
+  background-color: #DE782E;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  margin-left: 20px;
+}
+
+.select select:hover {
+  background-color: #444443;
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+.shop .home_wrapper .leftHome {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 7 1;
+  height: 90vh;
+  /* overflow-y: scroll; */
+  overflow-x: hidden;
+  transform: translateX(2px);
+}
+.overview-shop{
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-1px);
+  margin-top: 30px;
+  font-size: 12px;
+  width: 90px;
+}
+.popular-products {
+  font-size: 13px;
+  margin-top: 90px;
+  width: 168px;
+  color: #e08e53;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-left: 18px;
+}
+.select {
+  margin-top: 9px;
+  margin-left: -5px;
+
+}
+.select select {
+background-color: #DE782E;
+color: #fff;
+border: none;
+padding: 4px 1px;
+cursor: pointer;
+outline: none;
+transition: background-color 0.3s;
+margin-left: 20px;
+font-size: 8px;
+width: 90px;
+}
+
+}
+@media screen and (min-width:494px) and (max-width:768px){
+  .popular-products {
+    font-size: 20px;
+    transform: translate(-49px,-77px);
+    margin-top: 150px;
+    width: 350px;
+    color: #e08e53;
+    letter-spacing: 0.1rem;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+  .overview-shop{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-1px);
+    margin-top: 30px;
+    font-size: 12px;
+    width: 90px;
+  }
+  .shop .home_wrapper .leftHome {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 7 1;
+    height: 90vh;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    transform: translateX(-19px);
+}
+.select {
+  margin-top: 9px;
+  margin-left: -5px;
+
+}
+.select select {
+  margin-left: 7px;
+  background-color: #DE782E;
+  color: #fff;
+  border: none;
+  padding: 4px 1px;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  width: 150px;
+
+}
+
+}
+
+
