@@ -2,14 +2,9 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import Cookies from "js-cookie";
-import SearchIcon from "@mui/icons-material/Search";
 import { useActiveUserContext } from "../../hooks/useActiveUserContext";
-import {useUsersContext} from "../../hooks/useUsersContext"
-import SearchResult from "../SearchResult/SearchResult";
-import Overlay from "../Overlay/Overlay";
-import LoginIcon from '@mui/icons-material/Login';
-import HowToRegIcon from '@mui/icons-material/HowToReg';
-import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
+// import SearchResult from "../SearchResult/SearchResult";
+
 import { useAdminContext } from "../../context/AdminContext";
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
@@ -91,14 +86,7 @@ console.log(admin);
     <div className="navbar">
       {searchResultContainerStyle === "showSearch" && (
         <>
-          <SearchResult
-            searchValue={searchValue}
-            className={searchResultContainerStyle}
-          />
-          <Overlay
-            className={searchResultContainerStyle}
-            onClick={handleSearch}
-          />
+          
         </>
       )}
        <Box sx={{ flexGrow: 0 }} className="box" >
